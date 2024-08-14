@@ -1,6 +1,6 @@
 {
   "name": "nuxt-newrelic",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Nuxt module to integrate New Relic",
   "repository": "attributech/nuxt-newrelic",
   "license": "MIT",
