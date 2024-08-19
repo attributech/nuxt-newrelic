@@ -53,7 +53,8 @@ This is recommended to use in production.
 - Instrument Nuxt
 - Source maps
 - Exclude expected errors (4xx)
-- Disable default error tracking since there is basically no information available 
+- Disable default error tracking since there is basically no information available
+- Write tests
 
 ## Contribution
 
