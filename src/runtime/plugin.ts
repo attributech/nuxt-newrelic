@@ -4,7 +4,6 @@ import type { NitroAppPlugin } from 'nitropack'
 import type { newrelicModuleOptions } from './types'
 import { useRuntimeConfig } from '#imports'
 import type { NuxtError } from '#app'
-import {} from '@nuxt/kit'
 
 // @todo: Stubbing defineNitroPlugin. Maybe this could be solved differently?
 export function defineNitroPlugin(def: NitroAppPlugin) {
