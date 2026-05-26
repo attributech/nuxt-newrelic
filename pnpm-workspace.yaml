@@ -1,0 +1,6 @@
+allowBuilds:
+  "@newrelic/fn-inspect": true
+  "@newrelic/native-metrics": true
+  "@parcel/watcher": true
+  esbuild: true
+  protobufjs: true
