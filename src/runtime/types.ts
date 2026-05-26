@@ -1,3 +1,3 @@
 export interface newrelicModuleOptions {
-  errorClasses: number[]
+  errorClasses?: number[]
 }

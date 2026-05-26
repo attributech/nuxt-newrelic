@@ -24,7 +24,7 @@ export default defineNitroPlugin((nitroApp) => {
       if (typeof cause === 'object' && cause !== null && 'statusCode' in cause) {
         const statusCode = cause.statusCode
         const errorClass = Number(String(statusCode)[0])
-        if (!runtimeConfig.errorClasses.includes(errorClass)) {
+        if (!(runtimeConfig.errorClasses ?? []).includes(errorClass)) {
           return
         }
       }
