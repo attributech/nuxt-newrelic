@@ -17,7 +17,7 @@ export default defineNuxtModule<newrelicModuleOptions>({
       {},
       passedOptions,
       defaultOptions,
-    ) as newrelicModuleOptions
+    ) as Required<newrelicModuleOptions>
     nuxt.options.runtimeConfig.newrelic = options
     const resolver = createResolver(import.meta.url)
     addServerPlugin(resolver.resolve('./runtime/plugin'))
